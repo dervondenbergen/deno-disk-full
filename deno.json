@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --allow-read --allow-run main.ts --path /System/Volumes/Data",
-    "compile": "deno compile --output disk-full --allow-read --allow-run main.ts"
+    "compile": "deno compile --output builds/disk-full --allow-read --allow-run main.ts"
   },
   "imports": {
     "@std/cli": "jsr:@std/cli@^1.0.9"
